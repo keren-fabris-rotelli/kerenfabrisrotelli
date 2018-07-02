@@ -1,0 +1,30 @@
+{
+  "companies": [
+    {
+      "title": "portchain",
+      "link": "https://www.linkedin.com/company/portchain-aps/",
+      "logo": "../../style/img/companies/portchain.png",
+      "description": "copenhagen, denmark\n\nRemote Senior Software Engineer\n[June 2017 - June 2018]\n\nWorking remotely with Portchain, I was responsible for building the prototype of the new application, using NodeJS and MarkoJS to be used for demonstrations and planning future product development."
+    }, {
+      "title": "adelphi digital",
+      "link": "https://www.linkedin.com/company/adelphi-digital-consulting-group/",
+      "logo": "../../style/img/companies/adelphi.png",
+      "description": "sydney, australia\n\nLead Drupal Engineer\n[September 2016 - January 2017]\n\nWorking at Adelphi as a lead developer, I was responsible for overseeing website development from the initial client request through to the final build. Working alongside the head of PHP, I helped restructure the companies development processes and helped to reorganise the way in which we plan and develop each site. During this time, I was also involved with implementing new continuous integration tools and techniques, using Git and Jenkins as our CI tool to allow us to deploy to staging and production environments. I worked with an internationally distributed team of developers, and helped to mentor the junior developers while providing assistance and support to the more experienced developers."
+    }, {
+      "title": "iag",
+      "link": "https://www.linkedin.com/company/iag/",
+      "logo": "../../style/img/companies/iag.png",
+      "description": "sydney, australia\n\nSenior Web Developer\n[March 2016 - September 2016]\n\nI was responsible for assisting a team of developers in the rebuild of the NRMA website. Working along side the frontend team and the content team, I assisted in the development of a sustainable website that offers flexibility and ease-of-use while the website organically grows and expands as content requirements change."
+    }, {
+      "title": "nation",
+      "link": "https://www.linkedin.com/company/nation/",
+      "logo": "../../style/img/companies/nation.png",
+      "description": "london, united kingdom\n\nSenior Web Developer\n[October 2013 - February 2016]\n\nWorking at Nation has given me extensive experience in website development, allowing me to work closely with all the teams in the department to plan, scope and build responsive websites. I worked closely alongside the project management team to help introduce and implement Agile workflow into our project process. I also had the chance to experiment with mobile application development, and built an Android app currently available for download on Google Play."
+    }, {
+      "title": "fantastic thinking",
+      "link": "https://www.linkedin.com/company/fantastic-thinking/",
+      "logo": "../../style/img/companies/fantasticthinking.png",
+      "description": "london, united kingdom\n\nphp developer\n[march 2009 - october 2013]\n\ni worked on several multilingual websites, with focus being on integration of third party software systems and API's such as online booking systems, multiple payment gateways, CRM systems and single-sign on functionality."
+    }
+  ]
+}

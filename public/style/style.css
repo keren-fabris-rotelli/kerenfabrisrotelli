@@ -1,0 +1,355 @@
+@import 'fonts/font-montserrat.css';
+
+body {
+  background-color: #9373D8;
+  padding-top: 50px;
+  font-family: Montserrat-Light, Arial, sans-serif;
+  font-size: 14px;
+  text-transform: lowercase;
+}
+
+
+.col-lg-10 {
+  padding: 0 15px 0 0;
+}
+.col-lg-12 {
+  padding: 0 30px 0 0;
+}
+.col-lg-3 {
+  padding-left: 0;
+  margin-right: -5px;
+}
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 18%;
+  float: left;
+  margin-left: 15px;
+}
+
+
+.header {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header-logo {
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.navbar-brand {
+  padding: 0;
+  height: 40px;
+}
+
+.navbar-default .navbar-text {
+  font-family: Montserrat-Bold, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  float: right;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.polaroid {
+  background-color: white;
+  margin-bottom: 25px;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.polaroid img {
+  width: 100%;
+  height: 150px;
+}
+
+.polaroid h4 {
+  font-size: 18px;
+}
+
+.modal-title {
+  font-family: Montserrat-Bold;
+}
+.modal-body p {
+  white-space: pre-line;
+}
+
+
+
+.text-detail-panel {
+  background-color: #F8F8F8;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+.text-detail-panel p {
+  color: #000000;
+}
+
+.contact-list {
+  margin: 0 33px 20px 0;
+}
+
+.image-container {
+  margin-left: -15px;
+}
+
+hr {
+  margin: 5px 0px 20px 0px;
+}
+
+.page-header {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+
+.page-header h1 {
+  font-family: Montserrat-Bold, Arial, sans-serif;
+  font-size: 30px;
+  color: #000000;
+}
+
+.list-group-item {
+  padding: 0 15px;
+}
+
+.list-header {
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+.experience-table {
+  background-color: #F8F8F8;
+  border-radius: 5px;
+}
+
+.experience-table>thead>tr>th {
+  font-size: 18px;
+}
+
+
+.companiesList > .company {
+  transition: transform .25s, background .25s;
+  background-color: #FFFFFF;
+  border: 1px solid #EFEFEF;
+  text-align: center;
+  border-radius: 5px;
+  height: 300px;
+}
+.companiesList > .company:hover {
+  transform: scale(1.2);
+  background: #FFFFFF;
+  position: relative;
+  z-index: 1;
+}
+.companiesList > .company h1 {
+  height: 75px;
+}
+.companiesList > .company .logo-image {
+  height: 135px;
+  position: relative;
+}
+.companiesList > .company img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.companiesList .glyphicon {
+  display: block;
+  margin-top: 30px;
+}
+
+
+
+@media (max-width: 460px) {
+  .page-header h1 {
+    font-size: 20px;
+  }
+  .jumbotron {
+    padding: 10px 10px 40px 10px;
+  }
+  .jumbotron h1 {
+    font-size: 30px;
+  }
+  .jumbotron p {
+    font-size: 16px;
+  }
+  .col-lg-10, .col-lg-12 {
+    padding: 0 0 0 0;
+  }
+  .col-xs-5ths {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .col-lg-3 {
+    padding: 0 15px 0 0;
+    margin-right: 0px;
+  }
+  .table-responsive {
+    border: none;
+    font-size: 10px;
+  }
+  .polaroid img {
+    width: 100%;
+    height: 100px;
+  }
+  .project-list .project-item h4 {
+    font-size: 12px;
+  }
+  .companiesList {
+    margin: 0 15px;
+  }
+  .companiesList > .company {
+    margin-bottom: 10px;
+    height: 150px;
+  }
+  .companiesList > .company h1 {
+    font-size: 18px;
+    font-weight: bold;
+    height: 15px;
+  }
+  .companiesList > .company img {
+    height: 90%;
+  }
+  .companiesList > .company .logo-image {
+    height: 80px;
+  }
+  .companiesList .glyphicon {
+    margin-top: 0px;
+  }
+  .contact-list {
+    margin: 0 15px 20px 0;
+  }
+}
+
+@media (min-width: 460px) and (max-width: 768px) {
+  .col-lg-10, .col-lg-12 {
+    padding: 0 0 0 0;
+  }
+  .col-xs-5ths {
+    width: 45%;
+    margin-left: 10px;
+  }
+  .col-lg-3 {
+    padding: 0 15px 0 0;
+    margin-right: 0px;
+  }
+  .page-header h1 {
+    padding-left: 15px;
+  }
+  .jumbotron {
+    padding-bottom: 10px;
+  }
+  .jumbotron .image-container {
+    display:none;
+  }
+  .jumbotron h1 {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 10px 0 15px 0;
+  }
+  .jumbotron p {
+    font-size: 16px;
+  }
+  .table-responsive {
+    border: none;
+    font-size: 10px;
+  }
+  .polaroid img {
+    width: 60%;
+    height: 100px;
+  }
+  .companiesList {
+    margin: 0 15px;
+  }
+  .companiesList > .company {
+    margin-bottom: 10px;
+    height: 150px;
+  }
+  .companiesList > .company h1 {
+    font-size: 18px;
+    font-weight: bold;
+    height: 15px;
+  }
+  .companiesList > .company img {
+    height: 90%;
+  }
+  .companiesList > .company .logo-image {
+    height: 80px;
+  }
+  .companiesList .glyphicon {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+  .companiesList > .company {
+    margin-left: 5px;
+    height: 250px;
+  }
+  .companiesList > .company h1 {
+    font-size: 20px;
+    height: 25px;
+  }
+  .companiesList > .company img {
+    width: 100px;
+  }
+
+  .jumbotron {
+    padding: 10px 10px 17px 10px;
+  }
+  .jumbotron h1 {
+    font-size: 30px;
+  }
+  .jumbotron p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1024px) {
+  .companiesList > .company h1 {
+    font-size: 20px;
+  }
+
+  .jumbotron {
+    /*padding: 10px 10px 17px 10px;*/
+    padding: 34px;
+  }
+  .jumbotron h1 {
+    font-size: 40px;
+  }
+  .jumbotron p {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .companiesList > .company h1 {
+    font-size: 20px;
+  }
+
+  .jumbotron {
+    padding: 34px;
+  }
+  .jumbotron h1 {
+    font-size: 45px;
+  }
+  .jumbotron p {
+    font-size: 18px;
+  }
+}

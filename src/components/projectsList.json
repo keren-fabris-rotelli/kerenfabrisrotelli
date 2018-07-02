@@ -1,0 +1,58 @@
+{
+  "projects": [{
+    "title": "jif",
+    "img": "../../style/img/projects/jif2.png",
+    "type": "android",
+    "readmore": "https://medium.com/notes-by-nation/jif-the-gif-social-network-4a25129dc737#.ni4q7kjvo",
+    "titleClass": "short",
+    "description": "JIF is a native android social sharing app that I was solely responsible for. It enables registered users to share and chat to each other using gif’s. Users can either upload their own gif, or search through an online gif repo to find a gif. It was the first native android app I have written; and included integration with other third party systems such as Parse (for data management) and Crashlytics (for debugging)"
+  }, {
+    "title": "barbour",
+    "img": "../../style/img/projects/barbour.png",
+    "type": "drupal",
+    "titleClass": "short",
+    "description": "I became lead developer on this site, maintaining the current site as well as working with the client and a third party provider to implement new features and extend functionality. I worked closely with an external company called hybris to integrate a customer data management solution.  I was also responsible for a series of microsites Barbour required to showcase their new fashion releases, unfortunately these were seasonal and no longer available online."
+  }, {
+    "title": "framestore",
+    "img": "../../style/img/projects/framestore.png",
+    "type": "drupal",
+    "readmore": "",
+    "titleClass": "short",
+    "description": "As lead developer on this project, I was responsible for running the scrums and assisting the project owner in controlling the project structure and project backlog. Working alongside the project manager, I ran the design sprints and planning sessions (based off of the Google Design Sprints methodology)"
+  }, {
+    "title": "nrma",
+    "img": "../../style/img/projects/nrma.png",
+    "type": "drupal",
+    "readmore": "",
+    "titleClass": "short",
+    "description": "I was responsible for assisting a team of developers in the rebuild of the NRMA website. I worked along side the frontend team and the content team to develop a sustainable website that offers flexibility and ease-of-use while the website organically grows and expands as content requirements change."
+  }, {
+    "title": "jw3",
+    "img": "../../style/img/projects/jw3.png",
+    "type": "drupal",
+    "readmore": "",
+    "titleClass": "short",
+    "description": "JW3 is a Jewish community site for which I was the lead developer. I worked closely with design, UX and front end developers to deliver an online experience which allows users to book tickets to events. I had to integrate the Tessitura Network CRM, which was responsible for controlling ticket sales, fulfilment and event data."
+  }, {
+    "title": "yha",
+    "img": "../../style/img/projects/yha.png",
+    "type": "drupal",
+    "readmore": "",
+    "titleClass": "short",
+    "description": "I was lead developer for the Youth Hostel Association website; building a Drupal 6 website that allowed users to register, purchase memberships, donate money and book rooms online.\n\nI worked with another developer to create custom Drupal modules to handle integration with:\n\nASSD PMS (the booking system which controlled room availability and prices)\nUtilized API calls to send and receive XML data between the systems\nMicrosoft Dynamics CRM\nCreated a queue based system in which user data was stored in the database before being sent through to the CRM system (and vice versa)\nData Cash Gateway\nEdenred integration using SimpleSAML\nI was also responsible for leading another developer during the creation of their micro sites and the multi lingual sites.\n\nDuring the rewriting phase I was responsible for the technical documentation, including the scope of work documentation, and training manuals. I worked closely with the IA and design team during the planning and development phase.\n\nIn 2012, YHA won a prestigious Web Marketing Association award. The award was given for Outstanding Achievement in Web Development. (http://www.webaward.org/winner.asp?eid=17924)"
+  }, {
+    "title": "peroni",
+    "img": "../../style/img/projects/peroni.png",
+    "type": "drupal",
+    "readmore": "",
+    "titleClass": "short",
+    "description": "Originally the role was simple maintenance of the existing site; but then I became lead developer when we redesigned and rebuilt the website. I worked closely with the designers and front end developers during the creation of the new website. The site had to be multilingual and support multiple local markets - each with their own specific content requirements."
+  }, {
+    "title": "statistical association",
+    "type": "drupal",
+    "img": "../../style/img/projects/sasa.png",
+    "readmore": "",
+    "titleClass": "long",
+    "description": "Rebuild of the South African Statistical Association website; including all micro-sites. Written in Drupal 8, the site was rewritten to be responsive; and to improve overall performance."
+  }]
+}
